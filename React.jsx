@@ -4,3 +4,7 @@
 
 //Virtual Dom :The Virtual DOM is a lightweight, in-memory copy of the real DOM (Document Object Model). React uses it to track changes and update the UI efficiently.
 
+//                                          **********PROPS*********
+// Props (short for properties) are a way to pass data from one component to another in React — typically from a parent to a child.
+// React has a different approach to data flow and manipulation than other frameworks.
+// Props make components dynamic and reusable by allowing external values to be injected.

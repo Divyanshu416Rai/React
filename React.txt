@@ -43,3 +43,39 @@ Example- class Greeting extends React.Component {
            }
 
 ---------------------------------------------------------------------------------------------------------------------------------
+                                           **********PROPS*********
+Props (short for properties) are a way to pass data from one component to another in React — typically from a parent to a child.
+React has a different approach to data flow and manipulation than other frameworks.
+Props make components dynamic and reusable by allowing external values to be injected.
+
+Example- import React from 'react';
+
+        class Welcome extends React.Component {
+          render() {
+            return <h1>Hello, {this.props.name}!</h1>;
+            }
+        }
+
+        // Usage in another component:
+        function App() {
+          return <Welcome name="Alice" />;
+        }
+
+    ----------------------------------------------------------------------
+    class ParentComponent extends component{
+    render(){
+        return(
+            <h1>
+            I'm the parent component
+            <ChildComponet/>
+            </h1>
+        )
+    }
+}Eg : <ChildComponet text={2nd}/>
+const addition =(props)=> {
+    return <p>I'm the {props.text} child! </p>
+}
+
+
+
+
