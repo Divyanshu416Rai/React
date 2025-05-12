@@ -1,0 +1,45 @@
+REACT :React JS is an open-source JavaScript library used for building user interfaces (UIs), especially for single-page applications (SPAs) where performance and dynamic updates are important.
+
+Framework : A framework is a pre-defined structure or platform that provides a foundation for developing software applications. It gives you a set of tools, rules, and guidelines so you can build and organize your project more easily
+
+Virtual Dom :The Virtual DOM is a lightweight, in-memory copy of the real DOM (Document Object Model). React uses it to track changes and update the UI efficiently.
+-----------------------------------------------------------------------------------------------------------------------------------
+JSX :JSX stands for JavaScript XML. It is a syntax extension for JavaScript used in React to write HTML-like code inside JavaScript
+
+Why Use JSX?
+    Makes UI code easier to read and write
+    Looks like HTML, but has the power of JavaScript
+    Helps React describe what the UI should look like
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Some important rules of JSX:
+
+1. Return a Single Root Element
+   JSX expressions must have one parent element.
+
+2. Use className Instead of class
+   class is a reserved keyword in JavaScript, so use className for CSS classes.
+
+3. Close All Tags
+   All tags must be properly closed, including self-closing tags.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+React Component :A React component is a reusable, self-contained block of code that defines part of a user interface (UI).
+It’s like a building block — you can create many components and combine them to build a complete web page or app.
+
+Types of React Components:
+1: Functional Component :A function-based component that returns JSX and can use hooks like useState for state management.
+
+Example-function Greeting() {
+        return <h1>Hello, World!</h1>;}
+
+2: Class Component : A class-based component that can have lifecycle methods and uses this.state for internal state.
+
+Example- class Greeting extends React.Component {
+          render() {
+              return <h1>Hello, {this.props.name}!</h1>;
+             }
+           }
+
+---------------------------------------------------------------------------------------------------------------------------------
